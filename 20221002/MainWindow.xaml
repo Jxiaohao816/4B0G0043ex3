@@ -1,0 +1,56 @@
+﻿<Window x:Class="_20221002.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20221002"
+        mc:Ignorable="d"
+        Title="4B0G0043" Height="450" Width="800">
+    <Grid Background="#FFD8C18D" HorizontalAlignment="Left" Width="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="豪豪愛吃漢堡包" HorizontalAlignment="Left" Height="54" Margin="33,30,0,0" VerticalAlignment="Top" Width="262" FontSize="36" Background="#FFE0DC65" FontWeight="Bold"/>
+        <StackPanel Orientation="Vertical" Margin="22,100,136,70">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label Content="大麥克漢堡(套餐)" Height="41" Width="262" FontSize="24"/>
+                <Label Content="150元" Height="41" Width="105" FontSize="24"/>
+                <TextBox x:Name="BM1" Height="41" TextWrapping="Wrap" Width="180" FontSize="24"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label Content="大麥克漢堡(單點)" Height="41" Width="262" FontSize="24"/>
+                <Label Content="90元" Height="41" Width="105" FontSize="24"/>
+                <TextBox x:Name="BM2" Height="41" TextWrapping="Wrap" Width="180" FontSize="24"/>
+
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label Content="麥香雞漢堡(套餐)" Height="41" Width="262" FontSize="24"/>
+                <Label Content="140元" Height="41" Width="105" FontSize="24"/>
+                <TextBox x:Name="MG1" Height="41" TextWrapping="Wrap" Width="180" FontSize="24"/>
+
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label Content="麥香雞漢堡(單點)" Height="41" Width="262" FontSize="24"/>
+                <Label Content="80元" Height="41" Width="105" FontSize="24"/>
+                <TextBox x:Name="MG2" Height="41" TextWrapping="Wrap" Width="180" FontSize="24"/>
+
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label Content="雙層牛肉堡(套餐)" Height="41" Width="262" FontSize="24"/>
+                <Label Content="160元" Height="41" Width="105" FontSize="24"/>
+                <TextBox x:Name="DB1" Height="41" TextWrapping="Wrap" Width="180" FontSize="24"/>
+
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label Content="雙層牛肉堡(單點)" Height="41" Width="262" FontSize="24"/>
+                <Label Content="100元" Height="41" Width="105" FontSize="24"/>
+                <TextBox x:Name="DB2" Height="41" TextWrapping="Wrap" Width="180" FontSize="24"/>
+
+            </StackPanel>
+        </StackPanel>
+
+        <Button Content="完成訂購" HorizontalAlignment="Left" Height="42" Margin="603,365,0,0" VerticalAlignment="Top" Width="161" FontSize="22" Click="Button_Click"/>
+        <TextBlock x:Name="TB1" HorizontalAlignment="Left" Height="248" Margin="603,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Background="White"/>
+
+    </Grid>
+</Window>
